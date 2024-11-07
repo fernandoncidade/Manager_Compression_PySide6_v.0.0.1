@@ -31,14 +31,14 @@ COM ÍCONE + COM EXECUTÁVEIS EXTERNOS NA RAIZ + ÍCONES DOS BOTÕES + ÍCONE T�
 
 COM ARQUIVOS DE IDIOMA PARA WINRAR E 7ZIP (Sub-Pasta Raiz)
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" --icon="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\Manager-BackUp.ico" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\*;icones" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\Config_Method\config.json;Config_Method" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\__pycache__\*;__pycache__" --add-binary="C:\Program Files\7-Zip\*;7-Zip" --add-binary="C:\Program Files\7-Zip\Lang\pt-br.txt;7-Zip\Lang" --add-binary="C:\Program Files\WinRAR\*;WinRAR" --add-binary="C:\Program Files\Bandizip\*;Bandizip" "v005_1_GUI.py" 
+pyinstaller --onefile -w -n "Gerenciador BackUp" --hidden-import "babel.numbers" --icon="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\Manager-BackUp.ico" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\*;icones" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\Config_Method\config.json;Config_Method" --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\__pycache__\*;__pycache__" --add-binary="C:\Program Files\7-Zip\*;7-Zip" --add-binary="C:\Program Files\7-Zip\Lang\pt-br.txt;7-Zip\Lang" --add-binary="C:\Program Files\WinRAR\*;WinRAR" --add-binary="C:\Program Files\Bandizip\*;Bandizip" "v005_1_GUI.py" 
 
 
 
 
 ***EXEMPLO RASCUNHO (Sub-Pasta Raiz)***
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" 
+pyinstaller --onefile -w -n "Gerenciador BackUp" --hidden-import "babel.numbers" 
 --icon="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\Manager-BackUp.ico" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\*;icones" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\Config_Method\config.json;Config_Method" 
@@ -119,7 +119,7 @@ pyinstaller --onefile -w --hidden-import "babel.numbers"
 "v004_1_GUI.py" 
 "v005_1_GUI.py" 
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" 
+pyinstaller --onefile -w -n "Gerenciador BackUp" --hidden-import "babel.numbers" 
 --icon="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\Manager-BackUp.ico" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\*;icones" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\Config_Method\config.json;Config_Method" 
@@ -135,7 +135,7 @@ pyinstaller --onefile -w --hidden-import "babel.numbers"
 "v005_1_GUI.py" 
 
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" 
+pyinstaller --onefile -w -n "Gerenciador BackUp" --hidden-import "babel.numbers" 
 --icon="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\Manager-BackUp.ico" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\*;icones" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\Config_Method\config.json;Config_Method" 
@@ -155,7 +155,7 @@ pyinstaller --onefile -w --hidden-import "babel.numbers"
 
 ***EXEMPLO RASCUNHO (Pasta Raiz)***
 
-pyinstaller --onefile -w --hidden-import "babel.numbers" 
+pyinstaller --onefile -w -n "Gerenciador BackUp" --hidden-import "babel.numbers" 
 --icon="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\Manager-BackUp.ico" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\Manager-BackUp.ico;icones" 
 --add-data="C:\Users\ferna\PROJETOS\Projetos_Python\Manager-Compression\Manager-Compression_PySide6\Manager_Compression_PySide6_v.0.0.1\icones\winrar3.png;icones" 
