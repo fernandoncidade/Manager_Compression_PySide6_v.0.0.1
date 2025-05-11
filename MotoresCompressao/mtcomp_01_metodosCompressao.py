@@ -4,8 +4,8 @@ import json
 from PySide6.QtWidgets import QMenu
 from PySide6.QtGui import QAction
 from functools import partial
-from v005_3_gerente_GUI_layouts import GerenciadorInterface
 from enum import Enum
+from GerenciamentoUI.ui_02_gerenteGUILayouts import GerenciadorInterface
 
 
 LEGENDS_WINRAR = {

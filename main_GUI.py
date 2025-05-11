@@ -3,10 +3,10 @@ import sys
 import json
 from PySide6.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QPushButton, QScrollArea, QWidget, QLabel, QCheckBox, QSpacerItem, QSizePolicy)
 from PySide6.QtGui import QIcon, QAction, QFont
-from v005_2_layouts_compressao import LayoutsCompressao
-from v005_3_gerente_GUI_layouts import GerenciadorInterface
-from v005_4_metodos_compressao import MetodoCompressao, CompressType
-from v005_6_drag_drop import DragDropListWidget
+from GerenciamentoUI.ui_01_layoutsCompressao import LayoutsCompressao
+from GerenciamentoUI.ui_02_gerenteGUILayouts import GerenciadorInterface
+from GerenciamentoUI.ui_03_dragDrop import DragDropListWidget
+from MotoresCompressao.mtcomp_01_metodosCompressao import MetodoCompressao, CompressType
 
 
 class InterfaceGrafica(QMainWindow, MetodoCompressao):
