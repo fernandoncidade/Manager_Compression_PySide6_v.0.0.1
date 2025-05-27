@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação de gerenciamento de compressão desenvolvida em Python usando PySide6. A aplicação permite aos usuários selecionar diferentes métodos de compressão para arquivar pastas e arquivos. A interface gráfica é projetada para ser intuitiva e fácil de usar, oferecendo suporte para vários formatos de compressão e funcionalidades adicionais. São suportados 12 métodos de compressão e descompressão.
 
-Observação: É necessário ter instalado no seu PC os seguintes programas: WinRAR, 7-Zip e Bandizip. Para utilizar a compressão do WinRAR é necessário ter comprado a versão paga, pois se trata de um software proprietário.
+Observação: É necessário ter instalado no seu PC os seguintes programas: WinRAR, 7-Zip e Bandizip. Para utilizar a compressão do WinRAR e do Bandizip é necessário ter comprado a versão paga, pois se trata de um software proprietário.
 
 ## Visão Geral
 
